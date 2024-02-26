@@ -2,7 +2,7 @@ import React from 'react'
 
 const LogoNotLogedIn = () => {
  
-  let src =  "/images/Reddit-Text-Black.png";
+  let src =  "/images/redditText.svg";
  
   
   return (

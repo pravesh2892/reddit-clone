@@ -34,7 +34,7 @@ const ComingSoon = () => {
         flexDirection: "column",
         marginLeft:"500px",
         paddingTop:"110px",
-        color: isLoggedIn ? '#0F1A1C' : 'white',
+        color:  '#0F1A1C',
       }}
     >
        <img src={not} style={{width:"40%"}}  />

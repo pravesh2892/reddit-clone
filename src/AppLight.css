@@ -24,10 +24,10 @@ body{
     top: 0px;
     width: 100%;
     justify-content: space-evenly;
-    background-color: #0B1416;
+    background-color: #ffffff;
     height: 60px;
     padding: 8px 12px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(3, 3, 3, 0.1);
 }
 .navbar-light{
     display: flex;
@@ -88,12 +88,14 @@ body{
     display: flex;
     align-items: center;
     
+    
 }
 .image{
     height: 30px;
 }
 .image-text{
     height: 46px;
+   
     /* filter: invert(100%); */
 }
 .search-bar{
@@ -101,6 +103,7 @@ body{
     flex-grow: 1;
     margin:0px 12px;
     align-items: center;
+    flex-direction: row;
 }
 .search-input-light{
     width: 100%;
@@ -126,6 +129,11 @@ body{
     align-items: center;
     padding-left: 20px;
 }
+
+.search-icon {
+    margin-right: 8px; 
+  }
+  
 .contact-container{
     display: flex;
     justify-content: center;
@@ -155,21 +163,21 @@ body{
 
 .feed-wrapper{
     margin-top: 1rem;
-    border-bottom: 1px solid #e6e6e6;
+    border-bottom: 1px solid #0a0a0a;
     padding: 12px 12px;   
 }
 .feed-container{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    background-color: #0B1416;
+    background-color: #ffffff;
     padding: 12px 22px;
-    color: white;
+    color: black;
     border: none;
     gap: 15px;
 }
 .feed-container:hover{
-    background-color: #111f22;
+    background-color: #b5b5b5;
     border: none;
     border-radius: 12px;
 }
@@ -206,15 +214,15 @@ body{
     gap: 20px;
 }
 .button{
-    background-color: #111f22;
+    background-color: #EAEDEF;
     padding: 8px 12px ;
-    color: white;
+    color: #0F1A1C;
     border: none;
     border-radius: 7px;
     cursor: pointer;
 }
 .button:hover{
-    background-color: #0B1416;
+    background-color: #a0a0a0;
 }
 .main-popular-container{
     width: 20%;
@@ -226,7 +234,7 @@ body{
     /* overflow: scroll; */
     /* margin-top; */
     /* border: 1px solid wheat; */
-    background-color: black;
+    background-color: #F9FAFA;
     border-radius: 17px;
 }
 
@@ -236,7 +244,7 @@ body{
     flex-direction: row;
     gap: 10px;
     align-items: center;
-    color: #e6e6e6;
+    color: black;
     font-size: 13px;
     margin: 8px 8px;
     padding: 10px 10px;
@@ -248,7 +256,7 @@ body{
     /* overflow: scroll; */
 }
 .popular-community:hover{
-    background-color: #111f22;
+    background-color: #c6c6c6;
 }
 .popular-community img{
     height: 30px;

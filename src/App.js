@@ -42,8 +42,8 @@ function App(){
     document.body.style.backgroundColor = "#ddd";
     document.body.style.color = "black"
   }else if(!logedIn){
-    document.body.style.backgroundColor= "#0B1416";
-    document.body.style.color = "white";
+    document.body.style.backgroundColor= "#ffffff";
+    document.body.style.color = "black";
   }else{
     document.body.style.backgroundColor="black";
     document.body.style.color = "white";  
