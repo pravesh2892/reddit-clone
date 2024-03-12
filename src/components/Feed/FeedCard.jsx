@@ -14,10 +14,10 @@ const FeedCard = (props) => {
       <div className='feed-container'>
         <div className='profile-container'>
           <div className='channel-container'>
-            <img src={channel.image} alt={channel.name}  />
-            <div>{channel.name} </div>
+          <img src={channel?.image} alt={channel?.name} />
+            <div>{channel?.name} </div>
           </div>
-          <div>By {author.name}</div>
+          <div>By {author?.name}</div>
         </div>
         <p className='content'>{content}</p>
         <p className='created-at'>{createdAt}</p>
